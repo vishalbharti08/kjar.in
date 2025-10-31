@@ -1,0 +1,729 @@
+/* Part 1 */
+.part1Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sFTxt {
+    position: absolute;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.shopTxt {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.shopTabs {
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shopLists {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cursorPoint {
+    cursor: pointer;
+    width: fit-content;
+}
+
+.cursorPoint:hover {
+    text-decoration: underline;
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    gap: 16px;
+}
+
+.offTxt {
+    position: absolute;
+    color: #555555;
+    font-weight: 600;
+}
+
+.offTabs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 8px;
+}
+
+.inputFields {
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.bottomLine {
+    border-bottom: 1px solid black;
+}
+
+.readyBtn {
+    color: #555555;
+    padding: 8px;
+    border: 1px solid #3f3f3f;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+/* Part 2 */
+.bigImgTxt {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.bigLSide,
+.bigRSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 12px;
+    width: fit-content;
+    color: #ffffff;
+    font-weight: 600;
+    gap: 4px;
+}
+
+.bigLSide {
+    background-color: #0a492e;
+}
+
+.bigRSide {
+    background-color: #cc373d;
+}
+
+.circleA {
+    border: 2px solid #ffffff;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circleB {
+    border: 2px solid #ffffff;
+    width: 10px;
+    height: 10px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.sNowBtn {
+    background-color: #cc373d;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 4px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.exploreCollBtn {
+    border: 1px solid #ffffff;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+/* Part 3 */
+.part3Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redColor,
+.greenColor {
+    padding: 10%;
+    height: 100%;
+}
+
+.redColor {
+    background-color: #a20202;
+}
+
+.greenColor {
+    background-color: #0a492e;
+}
+
+.redBox {
+    background-color: #a20202;
+    padding: 52px 40px;
+}
+
+.greenBox {
+    background-color: #0a492e;
+    padding: 60px 40px;
+}
+
+.txtBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    margin: 8px;
+}
+
+.introTxt {
+    color: #555555;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.styleMeetTxt {
+    color: #a20202;
+    font-size: 12px;
+}
+
+.elevateTxt {
+    color: #555555;
+    font-size: 10px;
+}
+
+.frameCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.frameBackL,
+.frameBackR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    width: 100%;
+}
+
+.frameBackL {
+    background-color: #f4f4f4;
+}
+
+.frameBackR {
+    background-color: #eaeaea;
+}
+
+.disBtn {
+    color: #555555;
+    border: 1px solid #555555;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 8px 12px;
+}
+
+.tasteFulCont {
+    width: 100%;
+}
+
+/* Part 4 */
+.part4Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.p4InnerImgBox {
+    display: flex;
+    align-items: center;
+}
+
+.txtBoxCont {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    margin-bottom: 20px;
+    top: 50%;
+    left: 33.3333%;
+    transform: translate(-50%, -50%);
+}
+
+.handCftTxt {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.eyeSeries {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* Part 5 - Old School Rectangular Frames */
+.p5Container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.oldTxt {
+    color: #555555;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.oldFrames {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 0 12px 16px 12px;
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
+/* Part 6 - Buy it your way */
+.p6Container {
+    display: flex;
+}
+
+.p6LeftSide {
+    background-color: #eae7e4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    object-fit: contain;
+}
+
+.p6RightSide {
+    background-color: #a20202;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btWayTxt {
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.rightBoxesCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    flex: 1;
+}
+
+.rightBoxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.rbContainer {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.rbContHead {
+    color: #0a492e;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.hLine {
+    width: 100%;
+    border: 1px solid #555555;
+}
+
+
+.rbContBtn {
+    background-color: #0a492e;
+    color: #ffffff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+/* Part 7 - Do More Be More  */
+.p7Container {
+    padding: 0 12px;
+}
+
+.p7Box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 4px;
+}
+
+.redColorTxt {
+    color: #a20202;
+}
+
+.kjSeries {
+    color: #555555;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.kjDesc {
+    color: #555555;
+}
+
+.p7BoxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin: 20px 0;
+}
+
+.p7Box1 {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.p7BoxDesc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+.doMoreTxt {
+    color: #555555;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* Responsive Design */
+/* 1280px or lesser */
+@media only screen and (max-width: 1280px) {
+    /* Sub Images */
+    .shopTxt {
+        margin-bottom: 8px;
+    }
+}
+
+/* 1024px or lesser */
+@media only screen and (max-width: 1024px) {
+    /* Sub Images */
+    .shopTxt {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .shopLists {
+        font-size: 12px;
+        gap: 4px;
+    }
+
+    .socialIcons {
+        margin-top: 8px;
+        gap: 10px;
+    }
+
+    .socialIcons div img {
+        width: 18px;
+        height: auto;
+    }
+
+    .offTxt {
+        padding: 4px;
+        font-size: 14px;
+    }
+
+    .offTabs {
+        gap: 4px;
+        margin-top: 6px;
+    }
+
+    .inputFields {
+        padding: 2px;
+        font-size: 12px;
+    }
+
+    .readyBtn {
+        font-size: 10px;
+        padding: 4px;
+        margin-top: 6px;
+    }
+}
+
+/* 768px or lesser */
+@media only screen and (max-width: 768px) {
+    /* Sub Images */
+    .shopTxt {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .shopLists {
+        font-size: 10px;
+        gap: 2px;
+    }
+
+    .socialIcons {
+        margin-top: 8px;
+        gap: 8px;
+    }
+
+    .socialIcons div img {
+        width: 16px;
+        height: auto;
+    }
+
+    .offTxt {
+        padding: 4px;
+        font-size: 11px;
+    }
+
+    .offTabs {
+        gap: 4px;
+        margin-top: 6px;
+    }
+
+    .inputFields {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .readyBtn {
+        font-size: 8px;
+        padding: 4px;
+        margin-top: 6px;
+    }
+}
+
+/* 640px or lesser */
+@media only screen and (max-width: 640px) {
+    .bigLSide,
+    .bigRSide {
+        font-size: 8px;
+        padding: 8px 4px;
+    }
+
+    .p7BoxDesc {
+        font-size: 12px;
+    }
+
+    .doMoreTxt {
+        font-size: 16px;
+    }
+
+    .p6LeftSide {
+        display: none;
+    }
+
+    .p6RightSide {
+        width: 100%;
+    }
+
+    .rightBoxes {
+        gap: 8px;
+    }
+
+    .btWayTxt {
+        font-size: 16px;
+    }
+
+    .rbContainer {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .rbContHead {
+        font-size: 16px;
+    }
+
+    .rbContBtn {
+        font-size: 10px;
+        padding: 4px 8px;
+        margin-top: 4px;
+    }
+
+    /* Sub Images */
+    .shopTxt {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .shopLists {
+        font-size: 8px;
+        gap: 2px;
+    }
+
+    .socialIcons {
+        margin-top: 8px;
+        gap: 8px;
+    }
+
+    .socialIcons div img {
+        width: 16px;
+        height: auto;
+    }
+
+    .offTxt {
+        padding: 4px;
+        font-size: 10px;
+    }
+
+    .offTabs {
+        gap: 4px;
+        margin-top: 6px;
+    }
+
+    .inputFields {
+        padding: 2px;
+        font-size: 8px;
+    }
+
+    .readyBtn {
+        font-size: 8px;
+        padding: 2px;
+        margin-top: 6px;
+    }
+}
+
+/* 550px or lesser */
+@media only screen and (max-width: 550px) {
+    /* Sub Images */
+    .shopTxt {
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+
+    .shopLists {
+        font-size: 6px;
+        gap: 2px;
+    }
+
+    .socialIcons {
+        margin-top: 4px;
+        gap: 8px;
+    }
+
+    .socialIcons div img {
+        width: 12px;
+        height: auto;
+    }
+
+    .offTxt {
+        padding: 2px;
+        font-size: 8px;
+    }
+
+    .offTabs {
+        gap: 2px;
+        margin-top: 6px;
+    }
+
+    .inputFields {
+        padding: 2px;
+        font-size: 8px;
+    }
+
+    .readyBtn {
+        font-size: 8px;
+        padding: 2px;
+        margin-top: 6px;
+    }
+}
+
+/* 460px or lesser */
+@media only screen and (max-width: 460px) {
+    /* Sub Images */
+    .shopTxt {
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    .shopLists {
+        font-size: 8px;
+        gap: 2px;
+    }
+
+    .socialIcons {
+        margin-top: 4px;
+        gap: 8px;
+    }
+
+    .socialIcons div img {
+        width: 14px;
+        height: auto;
+    }
+
+    .offTxt {
+        padding: 2px;
+        font-size: 8px;
+    }
+
+    .offTabs {
+        gap: 2px;
+        margin-top: 6px;
+    }
+
+    .inputFields {
+        padding: 2px;
+        font-size: 8px;
+    }
+
+    .readyBtn {
+        font-size: 8px;
+        padding: 2px;
+        margin-top: 6px;
+    }
+
+    .removeOnSmallScreen {
+        display: none;
+    }
+}
+
+/* 375px or lesser */
+@media only screen and (max-width: 375px) {
+    .handCftTxt,
+    .txtBoxCont {
+        font-size: 12px;
+    }
+
+    .eyeSeries {
+        font-size: 34px;
+    }
+}

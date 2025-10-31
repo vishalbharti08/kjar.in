@@ -1,0 +1,117 @@
+/* Footer Data */
+.footerData {
+  background-color: #00301c;
+  color: #ffffff;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 24px;
+}
+
+/* Box 1 - Logo & Description */
+.fdBox1 {
+  width: min-content;
+}
+
+.fdBox1 img {
+  max-width: 120px; /* Adjust logo size for better responsiveness */
+}
+
+/* Box Headings */
+
+/* Quick Links, Policy, Resources */
+.fdBox2Items {
+  display: grid;
+  gap: 4px;
+}
+
+.fdBox2Items div {
+  width: fit-content;
+  cursor: pointer;
+}
+
+.fdBox2Items div:hover {
+  text-decoration: underline;
+}
+
+/* Contact Info */
+.pdbTxt {
+  padding: 8px 0;
+}
+
+/* Newsletter Subscription */
+.subInput {
+  padding: 12px 16px;
+  background-color: #00301c;
+  border: 2px solid #ffffff;
+  width: 100%;
+  max-width: 250px; /* Prevents input field from stretching too much */
+}
+
+.subBtn {
+  background-color: #a20202;
+  padding: 12px 16px;
+  margin-left: 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+/* Responsive Design */
+/* Tablets and Smaller Screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .footerData {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: start;
+    padding: 20px;
+  }
+}
+
+/* Mobile Screens (max-width: 600px) */
+@media (max-width: 600px) {
+  .footerData {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    padding: 16px;
+  }
+
+  .fdBox1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .fdBox1 img {
+    max-width: 100px; /* Adjust logo size */
+  }
+
+  .fdBox2Items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .pdbTxt {
+    text-align: center;
+  }
+
+  .subInput {
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 8px;
+  }
+
+  .subBtn {
+    width: 100%;
+    max-width: 300px;
+  }
+}

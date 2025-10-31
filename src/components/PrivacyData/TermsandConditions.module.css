@@ -1,0 +1,58 @@
+.termsCon {
+  min-height: 100vh;
+}
+
+.termsHead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.headText {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.subHeadText {
+  font-size: 16;
+  padding: 0 10px 10px 10px;
+  font-weight: bold;
+}
+
+.lineText {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 10px 10px 10px;
+}
+
+.conText {
+  font-size: 24px;
+  padding: 10px;
+}
+
+.contactCon {
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.horiLine {
+  border: 1px solid #e5e5e5;
+  margin: 0rem 1rem;
+}
+
+.lastLine {
+  font-size: 16px;
+  padding: 20px 10px;
+}
+
+.conTact a {
+  color: black;
+  text-decoration: none;
+}

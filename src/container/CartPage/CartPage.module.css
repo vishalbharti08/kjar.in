@@ -1,0 +1,315 @@
+.cartContainer {
+  display: flex;
+  padding: 16px;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.productImgBox {
+  width: 300px;
+  margin-right: 12px;
+}
+
+
+.billBox {
+  padding: 16px;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.billBottomBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.billBox {
+  width: 300px;
+  margin-bottom: 16px;
+}
+
+.loginToTxt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #f3f3f3;
+  border-radius: 12px;
+  color: #000000;
+  margin-top: 12px;
+}
+
+.productDescBox {
+  width: 400px;
+}
+
+.productDesc,
+.antiGlareTxt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.antiGlareTxt {
+  margin-top: 12px;
+}
+
+.productDescText {
+  width: 250px;
+}
+
+.lightTxt,
+.removeCouponBtn {
+  font-weight: 400 !important;
+}
+
+.removeCouponBtn {
+  cursor: pointer;
+}
+
+.cartBtns {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.discountPrice {
+  color: #109d00;
+}
+
+.checkoutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkoutButton {
+  background-color: #0a492e;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 24px;
+  font-weight: 500;
+  width: fit-content;
+  cursor: pointer;
+}
+
+
+.couponInput {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.couponInput:focus {
+  outline: none;
+  border: 1px solid #0d99ff;
+}
+
+.couponBtn {
+  padding: 8px 16px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Responsive Design CSS */
+/* 1145px or lesser */
+@media only screen and (max-width: 1145px) {
+  .productImgBox {
+    width: 200px;
+  }
+
+  .productDescBox {
+    width: 300px;
+  }
+
+  .productDescText {
+    width: 200px;
+  }
+
+  .checkoutBtn {
+    justify-content: flex-end;
+  }
+
+  .billBox {
+    width: 300px;
+  }
+}
+
+/* 935px or lesser */
+@media only screen and (max-width: 935px) {
+  .cartContainer {
+    padding: 12px;
+  }
+
+  .productImgBox {
+    width: 200px;
+  }
+
+  .productDescBox {
+    font-size: 12px;
+    width: 200px;
+  }
+
+  .productDescText {
+    width: 150px;
+  }
+
+  .checkoutBtn {
+    justify-content: flex-end;
+  }
+
+  .billBox,
+  .checkoutButton {
+    font-size: 12px;
+  }
+
+  .billBox {
+    width: 200px;
+  }
+}
+
+/* 700px or lesser */
+@media only screen and (max-width: 700px) {
+  .cartContainer {
+    padding: 12px;
+  }
+
+  .productImgBox {
+    width: 150px;
+  }
+
+  .productDescBox {
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .productDescText {
+    width: 140px;
+  }
+
+  .checkoutBtn {
+    justify-content: flex-end;
+  }
+
+  .billBox,
+  .checkoutButton {
+    font-size: 10px;
+  }
+
+  .billBox {
+    width: auto;
+  }
+}
+
+/* 600px or lesser */
+@media only screen and (max-width: 600px) {
+  .cartContainer {
+    padding: 12px;
+  }
+
+  .productImgBox {
+    width: 125px;
+  }
+
+  .productDescBox {
+    font-size: 10px;
+    width: 175px;
+  }
+
+  .productDescText {
+    width: 130px;
+  }
+
+  .checkoutBtn {
+    justify-content: flex-end;
+  }
+
+  .billBox,
+  .checkoutButton {
+    font-size: 10px;
+  }
+
+  .billBox {
+    width: auto;
+  }
+}
+
+/* 550px or lesser */
+@media only screen and (max-width: 550px) {
+  .cartContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .productImgBox {
+    width: 150px;
+  }
+
+  .productDescBox {
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .productDescText {
+    width: 140px;
+  }
+
+  .checkoutBtn {
+    justify-content: flex-end;
+  }
+
+  .billBox,
+  .checkoutButton {
+    font-size: 10px;
+  }
+
+  .billBox {
+    width: auto;
+  }
+}
+
+/* 375px or lesser */
+@media only screen and (max-width: 375px) {
+  .cartContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+  }
+
+  .productImgBox {
+    width: 100px;
+  }
+
+  .productDescBox {
+    font-size: 10px;
+    width: 200px;
+  }
+
+  .productDescText {
+    width: 135px;
+  }
+
+  .checkoutBtn {
+    justify-content: flex-end;
+  }
+
+  .billBox,
+  .checkoutButton {
+    font-size: 10px;
+  }
+
+  .billBox {
+    width: auto;
+  }
+}

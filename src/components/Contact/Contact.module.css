@@ -1,0 +1,376 @@
+.headTxt {
+  font-size: 24px;
+  text-align: center;
+  color: #343434;
+  margin: 20px 0px;
+  font-weight: 700;
+}
+
+.queryBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0px;
+}
+
+.queryLines {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  font-weight: 500;
+  color: #343434;
+}
+
+.queryTxt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.borderBottom {
+  margin: 12px 0px;
+  border-bottom: 1px solid #000000;
+}
+
+.partnerBox,
+.partnerLeftBox,
+.partnerRightBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partnerLeftBox {
+  width: 300px;
+  min-height: 200px;
+  word-wrap: break-word;
+  padding: 24px;
+}
+
+.partnerRightBox {
+  flex-direction: column;
+  width: 300px;
+  min-height: 200px;
+  padding: 24px;
+  background-color: #0a492e;
+  color: #ffffff;
+}
+
+.forCollabTxt {
+  font-weight: 500;
+}
+
+.writeUsTxt {
+  border: 1px solid #ffffff;
+  padding: 12px;
+  border-radius: 24px;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.p6Container {
+  display: flex;
+  margin: 32px 0px;
+}
+
+.p6LeftSide {
+  background-color: #eae7e4;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  object-fit: contain;
+}
+
+.p6RightSide {
+  background-color: #a20202;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btWayTxt {
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 16px;
+}
+
+.rightBoxesCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  flex: 1;
+}
+
+.rightBoxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.rbContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+}
+
+.rbContHead {
+  color: #0a492e;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.hLine {
+  width: 100%;
+  border: 1px solid #555555;
+}
+
+.rbContDesc {
+  color: #555555;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.rbContBtn {
+  background-color: #0a492e;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.backImgs {
+  width: 100%;
+}
+
+.contactBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+
+.contactContent {
+  padding: 20px;
+}
+
+.contactHead {
+  font-size: 20px;
+  font-weight: 500;
+  color: #0a492e;
+  margin-bottom: 8px;
+}
+
+.contactData {
+  min-height: 125px;
+}
+
+.contactBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #0a492e;
+  border-radius: 24px;
+  padding: 12px;
+  margin-top: 8px;
+  cursor: pointer;
+  /* width: fit-content; */
+}
+
+.tollFreeNum {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
+}
+
+.decorationNone {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Responsive Design */
+/* 1280px or lesser */
+@media only screen and (max-width: 1280px) {
+}
+
+/* 1024px or lesser */
+@media only screen and (max-width: 1024px) {
+}
+
+/* 768px or lesser */
+@media only screen and (max-width: 768px) {
+  .p6RightSide {
+    font-size: 14px;
+  }
+
+  /* .rbContDesc {
+    min-width: 120px;
+    min-height: 65px;
+  } */
+
+  .rbContBtn {
+    font-size: 10px;
+  }
+
+  .contactData {
+    min-height: 250px;
+  }
+
+  .contactHead {
+    font-size: 16px;
+  }
+
+  .contactBtns {
+    padding: 8px;
+    gap: 4px;
+    font-size: 14px;
+  }
+}
+
+/* 640px or lesser */
+@media only screen and (max-width: 640px) {
+  .p6LeftSide {
+    display: none;
+  }
+
+  .p6RightSide {
+    width: 100%;
+  }
+
+  .rightBoxes {
+    gap: 8px;
+  }
+
+  .btWayTxt {
+    font-size: 16px;
+  }
+
+  .rbContainer {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .rbContHead {
+    font-size: 16px;
+  }
+
+  .rbContBtn {
+    font-size: 10px;
+    padding: 4px 8px;
+    margin-top: 4px;
+  }
+
+  .headTxt {
+    margin: 8px 0px;
+  }
+
+  .queryLines {
+    font-size: 12px;
+    width: 320px;
+  }
+
+  .partnerBox {
+    font-size: 12px;
+  }
+
+  .partnerLeftBox,
+  .partnerRightBox {
+    padding: 12px;
+    min-height: 140px;
+  }
+
+  .writeUsTxt {
+    padding: 8px;
+    margin-top: 8px;
+  }
+
+  .contactBox {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .contactContent {
+    padding: 8px;
+  }
+
+  .contactHead {
+    font-size: 16px;
+  }
+
+  .contactData {
+    min-height: 150px;
+  }
+
+  .contactBtns {
+    padding: 6px;
+    gap: 4px;
+  }
+}
+
+/* 530px or lesser */
+@media only screen and (max-width: 530px) {
+  .contactHead {
+    font-size: 14px;
+  }
+}
+
+/* 425px or lesser */
+@media only screen and (max-width: 425px) {
+  .headTxt {
+    margin: 8px 0px;
+  }
+
+  .queryLines {
+    font-size: 10px;
+    width: 280px;
+  }
+
+  .partnerBox {
+    font-size: 10px;
+  }
+
+  .partnerLeftBox,
+  .partnerRightBox {
+    padding: 12px;
+    min-height: 140px;
+  }
+
+  .writeUsTxt {
+    padding: 8px;
+    margin-top: 8px;
+  }
+
+  .contactBox {
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  .contactContent {
+    padding: 8px;
+  }
+
+  .contactHead {
+    font-size: 16px;
+  }
+
+  .contactData {
+    min-height: 170px;
+  }
+
+  .contactBtns {
+    padding: 6px;
+    gap: 4px;
+    font-size: 10px;
+  }
+}
