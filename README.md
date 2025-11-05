@@ -6,13 +6,6 @@ Designed to showcase products, handle cart operations, and process orders secure
 
 ---
 
-## 🧩 Tech Stack
-- **Frontend:** Next.js, TailwindCSS, React Hooks
-- **Backend:** Firebase (Auth, Firestore)
-- **Deployment:** Vercel
-
----
-
 ## 🚀 Features
 - Dynamic product catalog with filtering & search
 - Firebase authentication and cart sync
@@ -27,11 +20,6 @@ I handled:
 - Integration with Firebase APIs  
 - SEO and build optimization for production  
 - Deployment on Vercel and domain routing
-
----
-
-## 🖼 Preview
-*(Add a few screenshots here — homepage, product page, checkout page)*
 
 ---
 
