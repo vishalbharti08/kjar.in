@@ -1,8 +1,43 @@
-# React + Vite
+# Kjar Eyewear 👓
+**Live:** [https://kjar.in](https://kjar.in)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce web app built for a real eyewear brand.  
+Designed to showcase products, handle cart operations, and process orders securely.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Tech Stack
+- **Frontend:** Next.js, TailwindCSS, React Hooks
+- **Backend:** Firebase (Auth, Firestore)
+- **Deployment:** Vercel
+
+---
+
+## 🚀 Features
+- Dynamic product catalog with filtering & search
+- Firebase authentication and cart sync
+- Responsive, mobile-first UI
+- Admin-ready structure for future inventory management
+
+---
+
+## 🧠 My Role
+I handled:
+- Component architecture & UI logic  
+- Integration with Firebase APIs  
+- SEO and build optimization for production  
+- Deployment on Vercel and domain routing
+
+---
+
+## 🖼 Preview
+*(Add a few screenshots here — homepage, product page, checkout page)*
+
+---
+
+## 📦 Local Setup
+```bash
+git clone https://github.com/<your-username>/kjar-website.git
+cd kjar-website
+npm install
+npm run dev
