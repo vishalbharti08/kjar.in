@@ -1,31 +1,28 @@
-# Kjar Eyewear 👓
-**Live:** [https://kjar.in](https://kjar.in)
+# KJAR Eyewear storefront
 
-E-commerce web app built for a real eyewear brand.  
-Designed to showcase products, handle cart operations, and process orders securely.
+The web storefront for KJAR, an independent eyewear brand. It's live at **[kjar.in](https://kjar.in)**. I led a three-person team that built and shipped it.
 
----
+## Features
 
-## 🚀 Features
-- Dynamic product catalog with filtering & search
-- Firebase authentication and cart sync
-- Responsive, mobile-first UI
-- Admin-ready structure for future inventory management
+- Product catalog with category pages, product detail pages with image zoom, and a buying guide
+- Cart with guest-cart migration on sign-in, checkout with saved addresses, and Razorpay payments
+- Order history and a user profile
+- Store locator map (Leaflet), a partner-with-us form, and a careers section
+- SEO tags per page (react-helmet-async) and scroll animations
 
----
+## Stack
 
-## 🧠 My Role
-I handled:
-- Component architecture & UI logic  
-- Integration with Firebase APIs  
-- SEO and build optimization for production  
-- Deployment on Vercel and domain routing
+React 18 · Vite · Redux Toolkit · React Router · MUI · Tailwind CSS · Axios · Razorpay · Leaflet
 
----
+The frontend talks to the KJAR REST API (`src/config.js`). The API isn't part of this repository.
 
-## 📦 Local Setup
+## Run locally
+
 ```bash
-git clone https://github.com/<your-username>/kjar-website.git
-cd kjar-website
+git clone https://github.com/vishalbharti08/kjar.in.git
+cd kjar.in
 npm install
 npm run dev
+```
+
+To work against a local API, change `BASE_URL` in `src/config.js`.
